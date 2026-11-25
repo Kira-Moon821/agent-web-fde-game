@@ -1,0 +1,32 @@
+name: import-on-issue
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download bundle
+        run: |
+          curl -L --retry 3 -o /tmp/project.zip "https://aka.doubaocdn.com/s/jBjTaEZnVG"
+          ls -l /tmp/project.zip
+
+      - name: Extract and commit
+        run: |
+          mkdir -p /tmp/x
+          cd /tmp/x
+          unzip -q /tmp/project.zip
+          cd "$GITHUB_WORKSPACE"
+          rsync -a --exclude '.git' /tmp/x/ ./
+          git config user.name "Kira-Moon821"
+          git config user.email "864523000@qq.com"
+          git add -A
+          git commit -m "import: full project (docs + code + pixel site + FDE deploy)" || echo "nothing to commit"
+          git push
