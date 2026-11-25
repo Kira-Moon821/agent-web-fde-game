@@ -1,32 +1,13 @@
-name: import-on-issue
+name: archived-import-on-issue
 
-on:
-  issues:
-    types: [opened]
+# 仅作留档：项目已一次性导入完成，此工作流不再自动触发。
+on: workflow_dispatch
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  import:
+  noop:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Download bundle
-        run: |
-          curl -L --retry 3 -o /tmp/project.zip "https://aka.doubaocdn.com/s/jBjTaEZnVG"
-          ls -l /tmp/project.zip
-
-      - name: Extract and commit
-        run: |
-          mkdir -p /tmp/x
-          cd /tmp/x
-          unzip -q /tmp/project.zip
-          cd "$GITHUB_WORKSPACE"
-          rsync -a --exclude '.git' /tmp/x/ ./
-          git config user.name "Kira-Moon821"
-          git config user.email "864523000@qq.com"
-          git add -A
-          git commit -m "import: full project (docs + code + pixel site + FDE deploy)" || echo "nothing to commit"
-          git push
+      - run: echo "bundle import already completed; nothing to do"
