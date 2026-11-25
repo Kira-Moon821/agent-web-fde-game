@@ -29,7 +29,6 @@ jobs:
       - name: Commit into repository
         run: |
           rsync -a --exclude '.git' /tmp/x/ ./
-          rm -f .github/workflows/import-project.yml
           git config user.name "Kira-Moon821"
           git config user.email "864523000@qq.com"
           git add -A
