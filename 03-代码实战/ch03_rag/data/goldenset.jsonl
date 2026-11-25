@@ -1,0 +1,20 @@
+{"id":"q01","question":"ALT 升高是不是就是肝炎？","expected_chunk":"doc1#p1","expected_fact":"不等于肝炎","answerable":true}
+{"id":"q02","question":"ALT 的参考区间是多少？","expected_chunk":"doc1#p1","expected_fact":"7-40 U/L","answerable":true}
+{"id":"q03","question":"为什么运动后 AST 会升高？","expected_chunk":"doc1#p2","expected_fact":"骨骼肌","answerable":true}
+{"id":"q04","question":"肌酐的正常参考区间是多少？","expected_chunk":"doc1#p3","expected_fact":"57-97","answerable":true}
+{"id":"q05","question":"eGFR 低于 60 意味着什么？","expected_chunk":"doc1#p4","expected_fact":"慢性肾脏病","answerable":true}
+{"id":"q06","question":"血钾的危急值是多少？","expected_chunk":"doc1#p5","expected_fact":"6.0 mmol/L","answerable":true}
+{"id":"q07","question":"尿素氮升高能不能单独判断肾功能？","expected_chunk":"doc1#p6","expected_fact":"不宜单独下结论","answerable":true}
+{"id":"q08","question":"布洛芬有哪些常见不良反应？","expected_chunk":"doc2#p1","expected_fact":"胃肠道不适","answerable":true}
+{"id":"q09","question":"孕妇可以用布洛芬吗？","expected_chunk":"doc2#p1","expected_fact":"妊娠晚期禁用","answerable":true}
+{"id":"q10","question":"对乙酰氨基酚成人一天最多多少？","expected_chunk":"doc2#p2","expected_fact":"2 克","answerable":true}
+{"id":"q11","question":"吃二甲双胍腹泻要紧吗？","expected_chunk":"doc2#p3","expected_fact":"腹泻与腹胀","answerable":true}
+{"id":"q12","question":"用阿莫西林前要注意什么？","expected_chunk":"doc2#p4","expected_fact":"过敏史","answerable":true}
+{"id":"q13","question":"抽血需要空腹多久？","expected_chunk":"doc3#p1","expected_fact":"8-12 小时","answerable":true}
+{"id":"q14","question":"检验值超出参考区间就是有病吗？","expected_chunk":"doc3#p3","expected_fact":"不等于患病","answerable":true}
+{"id":"q15","question":"什么是危急值？","expected_chunk":"doc3#p4","expected_fact":"危及生命","answerable":true}
+{"id":"q16","question":"检验报告能代替医生诊断吗？","expected_chunk":"doc3#p5","expected_fact":"不能替代医生诊断","answerable":true}
+{"id":"q17","question":"轻度异常一般多久复查一次？","expected_chunk":"doc3#p6","expected_fact":"2-4 周","answerable":true}
+{"id":"q18","question":"医院食堂几点开饭？","expected_chunk":null,"expected_fact":null,"answerable":false}
+{"id":"q19","question":"这个药一盒多少钱？","expected_chunk":null,"expected_fact":null,"answerable":false}
+{"id":"q20","question":"医保能报销多少比例？","expected_chunk":null,"expected_fact":null,"answerable":false}

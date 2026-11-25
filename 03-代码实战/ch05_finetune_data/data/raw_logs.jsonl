@@ -1,0 +1,28 @@
+{"question":"ALT 升高是不是肝炎？","answer":"不等于肝炎，需结合 AST 与胆红素综合判断。","task_type":"指标解读"}
+{"question":"肌酐的正常范围是多少？","answer":"男性约 57-97 μmol/L，女性约 41-73 μmol/L。","task_type":"指标解读"}
+{"question":"eGFR 低于 60 说明什么？","answer":"持续三个月提示慢性肾脏病风险，需要医生评估。","task_type":"指标解读"}
+{"question":"血钾多少算危急值？","answer":"高于 6.0 mmol/L 属于危急值，需立即处理。","task_type":"指标解读"}
+{"question":"AST 为什么会升高？","answer":"心肌和骨骼肌也含 AST，剧烈运动后可轻度升高。","task_type":"指标解读"}
+{"question":"尿素氮升高要紧吗？","answer":"受饮食蛋白影响大，需结合肌酐判断，不宜单独下结论。","task_type":"指标解读"}
+{"question":"ALT 的正常参考区间是多少？","answer":"参考区间通常为 7-40 U/L。","task_type":"指标解读"}
+{"question":"布洛芬有哪些不良反应？","answer":"胃肠道不适、头晕、皮疹，妊娠晚期禁用。","task_type":"药物说明"}
+{"question":"孕妇能吃布洛芬吗？","answer":"妊娠晚期禁用，具体请咨询医生。","task_type":"药物说明"}
+{"question":"对乙酰氨基酚一天最多吃多少？","answer":"成人单日总量一般不超过 2 克，服药期间避免饮酒。","task_type":"药物说明"}
+{"question":"二甲双胍拉肚子怎么办？","answer":"腹泻与腹胀多见，可逐渐耐受，肾功能不全者需调整。","task_type":"药物说明"}
+{"question":"阿莫西林要注意什么？","answer":"用前确认过敏史，出现皮疹需停药就医。","task_type":"药物说明"}
+{"question":"布洛芬和对乙酰氨基酚能一起吃吗？","answer":"合并用药需医生评估，避免自行加药。","task_type":"药物说明"}
+{"question":"抽血需要空腹多久？","answer":"多数生化检验需空腹 8-12 小时，可少量饮水。","task_type":"术语解释"}
+{"question":"什么是参考区间？","answer":"来自健康人群的统计分布，超出不等于患病。","task_type":"术语解释"}
+{"question":"危急值是什么意思？","answer":"可能危及生命的检验结果，实验室会立即通知临床。","task_type":"术语解释"}
+{"question":"eGFR 是什么指标？","answer":"估算肾小球滤过率，由肌酐、年龄、性别计算。","task_type":"术语解释"}
+{"question":"为什么激素要固定时间抽血？","answer":"激素存在昼夜节律，固定采样便于横向比较。","task_type":"术语解释"}
+{"question":"检验报告能代替医生诊断吗？","answer":"不能替代，AI 仅提供信息整理。","task_type":"拒答"}
+{"question":"我是不是可以停药了？","answer":"不能给出停药建议，请咨询主管医生。","task_type":"拒答"}
+{"question":"这个药一次吃几片？","answer":"不提供剂量建议，请按说明书或遵医嘱。","task_type":"拒答"}
+{"question":"我是不是得了肝癌？","answer":"不能作出诊断，请携带报告就诊。","task_type":"拒答"}
+{"question":"医保能报销多少？","answer":"资料不足，建议咨询医保部门。","task_type":"拒答"}
+{"question":"患者张三 13812345678 的化验结果怎么看？","answer":"请提供化验项目与数值，注意保护个人隐私。","task_type":"指标解读"}
+{"question":"身份证 110101199001011234 对应的报告在哪？","answer":"无法查询个人报告，请通过医院官方渠道获取。","task_type":"拒答"}
+{"question":"ALT 升高是不是肝炎？","answer":"不等于肝炎，需结合 AST 与胆红素综合判断。","task_type":"指标解读"}
+{"question":"ALT 升高是不是肝炎?","answer":"不等于肝炎，需要结合其他指标综合判断。","task_type":"指标解读"}
+{"question":"轻度异常多久复查？","answer":"通常建议 2-4 周复查，观察趋势。","task_type":"术语解释"}

@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-11-25T04:51:59Z",
+  "duration_s": 7.93,
+  "passed": 8,
+  "total": 8,
+  "chapters": [
+    {
+      "id": "ch01",
+      "label": "CH01",
+      "status": "PASS",
+      "passed": 6,
+      "total": 6,
+      "summary": "[CH01] PASS 6/6",
+      "duration_s": 2.09
+    },
+    {
+      "id": "ch02",
+      "label": "CH02",
+      "status": "PASS",
+      "passed": 7,
+      "total": 7,
+      "summary": "[CH02] PASS 7/7",
+      "duration_s": 0.28
+    },
+    {
+      "id": "ch03",
+      "label": "CH03",
+      "status": "PASS",
+      "passed": 8,
+      "total": 8,
+      "summary": "[CH03] PASS 8/8",
+      "duration_s": 0.21
+    },
+    {
+      "id": "ch04",
+      "label": "CH04",
+      "status": "PASS",
+      "passed": 9,
+      "total": 9,
+      "summary": "[CH04] PASS 9/9",
+      "duration_s": 2.18
+    },
+    {
+      "id": "ch05",
+      "label": "CH05",
+      "status": "PASS",
+      "passed": 6,
+      "total": 6,
+      "summary": "[CH05] PASS 6/6",
+      "duration_s": 0.15
+    },
+    {
+      "id": "ch06",
+      "label": "CH06",
+      "status": "PASS",
+      "passed": 7,
+      "total": 7,
+      "summary": "[CH06] PASS 7/7",
+      "duration_s": 0.16
+    },
+    {
+      "id": "ch07",
+      "label": "CH07",
+      "status": "PASS",
+      "passed": 8,
+      "total": 8,
+      "summary": "[CH07] PASS 8/8",
+      "duration_s": 1.13
+    },
+    {
+      "id": "ch08",
+      "label": "CH08",
+      "status": "PASS",
+      "passed": 7,
+      "total": 7,
+      "summary": "[CH08] PASS 7/7",
+      "duration_s": 1.72
+    }
+  ]
+}

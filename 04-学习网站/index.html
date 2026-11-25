@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI FULLSTACK QUEST · 像素学习地图</title>
+<meta name="description" content="AI 全栈大模型学习路线 · 像素游戏风关卡地图 · 一章一检验" />
+<link rel="stylesheet" href="style.css?v=1.2" />
+</head>
+<body>
+<div class="crt" aria-hidden="true"></div>
+
+<header class="hud">
+  <div class="hud-left">
+    <div class="logo"><span class="caret">▶</span> AI FULLSTACK QUEST</div>
+    <div class="tagline">秋招通关路线 · 8 关 · 一章一检验</div>
+  </div>
+  <div class="hud-right">
+    <div class="stat">
+      <span class="label">LV</span>
+      <span class="value" id="level">1</span>
+    </div>
+    <div class="xp">
+      <div class="xp-track"><div class="xp-fill" id="xpFill"></div></div>
+      <span class="xp-text" id="xpText">0 / 900 XP</span>
+    </div>
+    <button class="px-btn small" id="btnVerify" type="button" title="重跑 8 章闸门（需令牌）">校验</button>
+    <button class="px-btn small" id="btnSave" type="button">存档</button>
+    <button class="px-btn small" id="btnLoad" type="button">读档</button>
+    <input type="file" id="fileLoad" accept="application/json" hidden />
+  </div>
+</header>
+
+<main class="layout">
+  <section class="stage-frame" aria-label="关卡地图">
+    <div class="stage-topbar">
+      <span>WORLD 1-1</span>
+      <span class="dash">秋季招聘赛季</span>
+      <span class="ratio-tag">STAGE 16:9</span>
+    </div>
+
+    <div class="stage" id="map" role="grid" aria-label="八章关卡"></div>
+
+    <div class="stage-bottom">
+      <span class="hint">↑↓←→ 移动 · ENTER 进入 · ESC 返回</span>
+      <span class="hint right" id="tip">选定关卡后按 ENTER</span>
+    </div>
+  </section>
+
+  <aside class="panel" aria-label="状态面板">
+    <h2 class="panel-title">STATUS</h2>
+    <div class="panel-body">
+      <div class="kv"><span>角色定位</span><strong id="roleName">AI 产品（医疗 B 端）</strong></div>
+      <div class="kv"><span>通关进度</span><strong id="clearCount">0 / 8</strong></div>
+      <div class="kv"><span>下一关</span><strong id="nextName">01 基础与边界</strong></div>
+      <div class="bars" id="bars" aria-label="能力条"></div>
+      <div class="panel-note" id="panelNote">从第 01 关开始：先把"能力边界"讲清楚，再谈 RAG 与 Agent。</div>
+      <div class="divider"></div>      <div class="kv small"><span>比例</span><strong>16:9 · 3:4 · 9:16</strong></div>
+      <div class="kv small"><span>闸门</span><strong id="gateSummary">连接中…</strong></div>
+      <div class="kv small"><span>令牌</span><input class="token-input" id="tokenInput" type="text" spellcheck="false" autocomplete="off" value="dev-token" aria-label="API 访问令牌" /></div>
+    </div>
+  </aside>
+</main>
+
+<footer class="dialogue" id="dialogue">
+  <div class="speaker">SYSTEM</div>
+  <div class="line" id="line"></div>
+</footer>
+
+<div class="overlay" id="overlay" hidden>
+  <div class="overlay-card" role="dialog" aria-modal="true" aria-labelledby="ovTitle">
+    <div class="overlay-head">
+      <span class="ov-code" id="ovCode">01</span>
+      <h2 id="ovTitle">关卡标题</h2>
+      <button class="px-btn small ghost" id="btnClose" type="button">ESC</button>
+    </div>
+    <div class="overlay-body" id="ovBody"></div>
+    <div class="overlay-foot">
+      <span class="foot-note" id="ovFootNote">需勾选全部检验项才能通关</span>
+      <button class="px-btn" id="btnClear" type="button">完成本关</button>
+      <button class="px-btn ghost" id="btnBack" type="button">返回地图</button>
+    </div>
+  </div>
+</div>
+
+<script src="data/chapters.js?v=1.2"></script>
+<script src="app.js?v=1.2"></script>
+</body>
+</html>
+

@@ -1,0 +1,129 @@
+{
+  "n": 20,
+  "answerable": 17,
+  "recall@4": 1.0,
+  "accuracy": 1.0,
+  "correct": 20,
+  "details": [
+    {
+      "id": "q01",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q02",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q03",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q04",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q05",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q06",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q07",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q08",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q09",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q10",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q11",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q12",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q13",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q14",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q15",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q16",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q17",
+      "answerable": true,
+      "recall": true,
+      "pass": true
+    },
+    {
+      "id": "q18",
+      "answerable": false,
+      "recall": null,
+      "pass": true
+    },
+    {
+      "id": "q19",
+      "answerable": false,
+      "recall": null,
+      "pass": true
+    },
+    {
+      "id": "q20",
+      "answerable": false,
+      "recall": null,
+      "pass": true
+    }
+  ]
+}

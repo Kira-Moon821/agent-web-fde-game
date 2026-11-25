@@ -1,0 +1,40 @@
+{"id": "g01", "answer": "结论：7-40；U/L。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g02", "answer": "结论：57-97。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 700}
+{"id": "g03", "answer": "结论：6.0；危急值。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g04", "answer": "结论：慢性肾脏病；医生。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g05", "answer": "结论：骨骼肌；心肌。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g06", "answer": "结论：饮食；肌酐。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g07", "answer": "结论：胃肠道不适。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 700}
+{"id": "g08", "answer": "结论：2 克；避免饮酒。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g09", "answer": "结论：腹泻；耐受。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g10", "answer": "结论：过敏史；皮疹。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g11", "answer": "结论：8-12 小时；饮水。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g12", "answer": "结论：健康人群；不等于患病。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g13", "answer": "结论：危及生命。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 700}
+{"id": "g14", "answer": "结论：昼夜节律；横向比较。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g15", "answer": "结论：2-4 周；趋势。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g16", "answer": "结论：医生评估；出血。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g17", "answer": "结论：肌酐；年龄。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g18", "answer": "结论：假性升高；复查。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g19", "answer": "结论：结合。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 700}
+{"id": "g20", "answer": "结论：健康人群；统计。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g21", "answer": "结论：不等于肝炎；复查。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g22", "answer": "结论：妊娠晚期禁用；咨询。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g23", "answer": "结论：调整；停用。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g24", "answer": "结论：不等于患病；结合临床表现。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g25", "answer": "结论：复查；就医。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g26", "answer": "结论：医生评估；过敏史。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g27", "answer": "结论：检测方法；复查。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g28", "answer": "结论：肌肉量；结合。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g29", "answer": "结论：不等于；趋势。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g30", "answer": "结论：胃肠道；医生评估。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g31", "answer": "结论：不提供剂量；说明书。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g32", "answer": "结论：请咨询；不能。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g33", "answer": "结论：不能；就诊。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g34", "answer": "结论：资料不足。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g35", "answer": "结论：资料不足；咨询。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g36", "answer": "结论：资料不足；医保部门。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g37", "answer": "结论：不提供剂量；说明书。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g38", "answer": "结论：不能；就医。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g39", "answer": "结论：不能；就诊。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}
+{"id": "g40", "answer": "结论：不能；资料。依据：见 doc1#p1。免责：本内容不替代医生诊断。", "citations": ["doc1#p1"], "latency_ms": 620}

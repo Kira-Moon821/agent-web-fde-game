@@ -1,0 +1,18 @@
+{
+  "raw": 28,
+  "pii_masked": 2,
+  "duplicates_removed": 2,
+  "kept": 26,
+  "train": 18,
+  "eval": 8,
+  "leakage": 0,
+  "distribution": {
+    "指标解读": 8,
+    "药物说明": 6,
+    "术语解释": 6,
+    "拒答": 6
+  },
+  "max_class_share": 0.3077,
+  "fields_complete": true,
+  "dedup_rate": 0.0714
+}

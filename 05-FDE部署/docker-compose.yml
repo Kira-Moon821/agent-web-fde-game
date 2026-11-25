@@ -1,0 +1,51 @@
+# FDE 部署编排：前端站点 + AI 服务，双服务双健康检查，可回滚
+# 用法：docker compose -f 05-FDE部署/docker-compose.yml up -d --build
+name: medai-learning
+
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: 05-FDE部署/Dockerfile
+    image: medai-api:${IMAGE_TAG:-v1}
+    container_name: medai-api
+    environment:
+      APP_TOKEN: ${APP_TOKEN:-dev-token}
+      MODEL_VERSION: ${MODEL_VERSION:-mock-llm-1}
+      APP_HOST: 0.0.0.0
+      # 演示环境放宽限流（生产保持 3/min），压测时用 RL_LIMIT=0 解耦容量与限流
+      RL_LIMIT: ${RL_LIMIT:-60}
+      RL_WINDOW_S: ${RL_WINDOW_S:-60}
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys;sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8080/healthz',timeout=2).status==200 else 1)"]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  site:
+    image: nginx:alpine
+    container_name: medai-site
+    ports:
+      - "8081:80"
+    volumes:
+      - ../04-学习网站:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1/healthz"]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+      start_period: 3s
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy

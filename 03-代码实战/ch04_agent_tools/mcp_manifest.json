@@ -1,0 +1,54 @@
+{
+  "server": {
+    "name": "medical-kb-mcp",
+    "version": "0.1.0",
+    "protocol": "mcp",
+    "transport": ["stdio", "http+sse"]
+  },
+  "tools": [
+    {
+      "name": "search_patient_labs",
+      "permission": "read",
+      "side_effect": false,
+      "input_schema": {"type": "object", "required": ["patient_id"], "properties": {"patient_id": {"type": "string"}}},
+      "notes": "仅查询本人授权患者；结果需脱敏后返回"
+    },
+    {
+      "name": "get_drug_info",
+      "permission": "read",
+      "side_effect": false,
+      "input_schema": {"type": "object", "required": ["name"], "properties": {"name": {"type": "string"}}},
+      "notes": "只返回说明书摘要，不含剂量建议"
+    },
+    {
+      "name": "search_kb",
+      "permission": "read",
+      "side_effect": false,
+      "input_schema": {"type": "object", "required": ["query"], "properties": {"query": {"type": "string"}}},
+      "notes": "返回片段必须带 source_id，便于引用"
+    },
+    {
+      "name": "calc_bmi",
+      "permission": "read",
+      "side_effect": false,
+      "input_schema": {"type": "object", "required": ["height_cm", "weight_kg"], "properties": {"height_cm": {"type": "number"}, "weight_kg": {"type": "number"}}}
+    },
+    {
+      "name": "submit_ticket",
+      "permission": "write",
+      "side_effect": true,
+      "requires_confirmation": true,
+      "input_schema": {"type": "object", "required": ["title", "detail"], "properties": {"title": {"type": "string"}, "detail": {"type": "string"}}},
+      "notes": "写操作：会通知医生，必须人在回路确认；需幂等键"
+    }
+  ],
+  "resources": [
+    {"uri": "kb://doc1", "name": "肝肾功能指标", "mime": "text/markdown"},
+    {"uri": "kb://doc2", "name": "常见药物说明", "mime": "text/markdown"},
+    {"uri": "kb://doc3", "name": "检验准备与沟通", "mime": "text/markdown"}
+  ],
+  "prompts": [
+    {"name": "lab_explain", "description": "化验单解读模板：结论+依据+免责，禁止剂量与诊断"},
+    {"name": "refusal", "description": "知识库未覆盖时的标准拒答模板"}
+  ]
+}
